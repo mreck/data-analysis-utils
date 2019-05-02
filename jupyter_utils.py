@@ -2,7 +2,7 @@
 IPython.OutputArea.prototype._should_scroll = function(lines) { return false; };
 
 
-#################################################
+##### imports ###################################
 
 
 import numpy as np
@@ -21,7 +21,7 @@ from bokeh.palettes import Category10
 output_notebook()
 
 
-#################################################
+##### misc ######################################
 
 
 def print_html(html_txt, center=True, h=None, raw=False):
@@ -50,7 +50,7 @@ def figsize(w=16, h=10):
 figsize()
 
 
-#################################################
+##### plotting ##################################
 
 
 def date_time_scatter_plot(x, y, src, category, categories, size=(950,950)):
